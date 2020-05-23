@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "no-console": [true, "debug", "time", "timeEnd", "trace"],
+    "directive-selector": [
+      true,
+      "attribute",
+      "workspace-affected-test",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "workspace-affected-test",
+      "kebab-case"
+    ]
+  }
+}

@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@workspace-affected-test/*": ["libs/*"],
+      "@workspace-affected-test/web": ["xplat/web/index.ts"],
+      "@workspace-affected-test/web/*": ["xplat/web/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

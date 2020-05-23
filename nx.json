@@ -18,5 +18,26 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "web-app1": {
+      "tags": []
+    },
+    "web-app1-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-app1"]
+    },
+    "web-app2": {
+      "tags": []
+    },
+    "web-app2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-app2"]
+    }
+  }
 }
